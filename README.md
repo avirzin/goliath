@@ -1,8 +1,10 @@
 <img src="./images/goliath_logo.png" alt="Goliath logo" width="200"/>
 
+
 # Goliath
 
-An index-based fund on the blockchain allows investment in a diversified, low-cost portfolio using smart contracts, ensuring transparency and accessibility for people in Brazil and abroad. This project was specially developed for the [Blockchain Rio Hackathon 2024.](https://taikai.network/blockchainrio/hackathons/blockchainriohack24).
+
+An index-based fund on the blockchain allows investment in a diversified, low-cost portfolio using smart contracts, ensuring transparency and accessibility for people in Brazil and abroad. This project was originally start being for the [Blockchain Rio Hackathon 2024](https://taikai.network/blockchainrio/hackathons/blockchainriohack24), but I joined too late, so I'm currently developing it for my conclusion of the [Alchemy University Ethereum Dev Bootcamp](https://www.alchemy.com/university/courses/ethereum).
 
 
 ## The Problem
@@ -28,10 +30,67 @@ This project aimed to solve several key problems faced by individual investors, 
 
 ## The Solution
 
-## General Flow
 
-## Use Cases
+Following the structure and strategy of one of the world’s largest and most respected investment companies the idea is structure an index-based fund in DeFi is designed to replicate the performance of a specific market index (top 100 crypto assets), providing a diversified, low-cost investment option. Here are the highlights:
 
-## Sequence Diagram
+1. **Diversification** - By investing in an index fund, you are effectively investing in a broad range of companies, spreading your risk across multiple sectors and industries;
+
+2. **Low Costs** - The main focus is to benefit investors providing low expense ratios, resulting in more of your funds staying invested and result in potential grow over time;
+
+3. **Long-Term Performance** -  Performance Explanation: Historically, index funds have consistently delivered solid returns over the long term, outperforming many actively managed funds;
+
+4. **Simplicity and Transparency** - Index funds are straightforward to understand and manage, with clear objectives and transparent holdings;
+
+5. **Passive Management** - The fund is passively managed, meaning it does not require active trading or stock picking, reducing costs and minimizing the risk of underperformance;
+
+6. **Transparency and Trust** - The blockchain technology ensures transparency and trust, allowing investors to verify the fund’s holdings, performance, and fees at any time.
+
+As an example, we consider investing in top 100 crypto assets with equal weight, and the fund will be rebalanced every quarter to maintain the target allocation. The fund will be managed by a professional fund manager who will oversee the fund’s operations, rebalancing, and performance tracking.
+
+[Insert chart here]
+
+
+### Architecture
+
+
+[Insert chart here]
+
+
+### General Flow /Users/avirzin/OpenBBUserData/exports
+
+The general flow of the solution is as follows:
+
+1. **Investor Registration** - Investors register on the platform, providing their personal information and wallet address.
+
+2. **KYC/AML Verification** - The platform verifies the investor’s identity and performs KYC/AML checks to comply with regulatory requirements.
+
+3. **Investment** - Investors deposit funds into the index fund using DREX, which are converted into the fund’s shares.
+
+4. **Fund Management** - The fund manager uses the deposited funds to purchase the underlying assets of the index fund, which are held in a smart contract.
+
+5. **Index Fund Performance** - The index fund’s performance is tracked in real-time, reflecting the performance of the underlying assets.
+
+6. **Redemption** - Investors can redeem their shares at any time, receiving the equivalent value in DREX.
+
+7. **Reporting and Transparency** - The platform provides real-time reporting on the fund’s performance, holdings, and fees, ensuring transparency and trust.
+
+8. **Compliance and Regulation** - The platform complies with regulatory requirements, ensuring investor protection and legal compliance.
+
+## Additional diagrams
+
+ 
+
+### Sequence Diagram
+
+
 
 ## Challenges and Risk
+
+
+
+### The solution considering the Brazilian market
+
+## References
+
+- Book [from Vanguard];
+- OpenBB Terminal index performance;

@@ -47,21 +47,22 @@ Following the structure and strategy of one of the world’s largest and most re
 
 As an example, we consider investing in top 100 crypto assets with equal weight, and the fund will be rebalanced every quarter to maintain the target allocation. The fund will be managed by a professional fund manager who will oversee the fund’s operations, rebalancing, and performance tracking.
 
-[Insert chart here]
+[TODO: Insert chart here]
 
 
 ### Architecture
 
 
-[Insert chart here]
+[TODO: Insert chart here]
 
 
-### General Flow /Users/avirzin/OpenBBUserData/exports
+### General Flow
 
 The general flow of the solution is as follows:
 
 1. **Investor Registration** - Investors register on the platform, providing their personal information and wallet address.
 
+[TODO: RECHECK KYC/AML]
 2. **KYC/AML Verification** - The platform verifies the investor’s identity and performs KYC/AML checks to comply with regulatory requirements.
 
 3. **Investment** - Investors deposit funds into the index fund using DREX, which are converted into the fund’s shares.

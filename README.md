@@ -107,5 +107,5 @@ The general flow of the solution is as follows:
 
 ## References
 
-- Book [from Vanguard];
-- OpenBB Terminal index performance;
+- [BALCHUNAS, Eric. The Bogle Effect: How John Bogle and Vanguard Turned Wall Street Inside Out and Saved Investors Trillions](https://www.amazon.com/Bogle-Effect-Vanguard-Investors-Trillions/dp/1637740719). Matt Holt (April, 202) ;
+- [OpenBB Terminal tools](https://openbb.co/) were used to research and analyze the top 100 crypto assets;

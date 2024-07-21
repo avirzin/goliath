@@ -47,7 +47,7 @@ Following the structure and strategy of one of the world’s largest and most re
 
 As an example, we consider investing in top 100 crypto assets with equal weight, and the fund will be rebalanced every quarter to maintain the target allocation. The fund will be managed by a professional fund manager who will oversee the fund’s operations, rebalancing, and performance tracking.
 
-This is the [dataset](./data/crypto_top100_20240720.csv) that was extracted from CoinGecko and CoinMarketCap:
+This is the [dataset](./data/crypto_top100_20240720.csv) that was extracted from [CoinGecko](https://www.coingecko.com/) and [CoinMarketCap](https://coinmarketcap.com/):
 
 |Symbol|Name|Volume($)|Market Cap|Market Cap Rank|7D Change(%)|24H Change(%)|
 |---|---|---|---|---|---|---|

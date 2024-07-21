@@ -4,13 +4,13 @@
 # Goliath
 
 
-An index-based fund on the blockchain allows investment in a diversified, low-cost portfolio using smart contracts, ensuring transparency and accessibility for people in Brazil and abroad. This project was originally start being for the [Blockchain Rio Hackathon 2024](https://taikai.network/blockchainrio/hackathons/blockchainriohack24), but I joined too late, so I'm currently developing it for my conclusion of the [Alchemy University Ethereum Dev Bootcamp](https://www.alchemy.com/university/courses/ethereum).
+An index-based fund on the blockchain allows investment in a diversified, low-cost portfolio using smart contracts, ensuring transparency and accessibility for people in Brazil and abroad. This project was originally started for the [Blockchain Rio Hackathon 2024](https://taikai.network/blockchainrio/hackathons/blockchainriohack24). Still, I joined too late, so I'm currently developing it for my conclusion of the [Alchemy University Ethereum Dev Bootcamp](https://www.alchemy.com/university/courses/ethereum).
 
 
 ## The Problem
 
 
-This project aimed to solve several key problems faced by individual investors, particularly those seeking long-term growth and financial security.
+This project aimed to solve several key problems individual investors face, particularly those seeking long-term growth and financial security.
 
 
 1. **Lack of Diversification** - Many individual investors struggle to achieve sufficient diversification in their portfolios, exposing themselves to higher risk by concentrating investments in a few stocks or sectors.
@@ -31,11 +31,11 @@ This project aimed to solve several key problems faced by individual investors, 
 ## The Solution
 
 
-Following the structure and strategy of one of the world’s largest and most respected investment companies the idea is structure an index-based fund in DeFi is designed to replicate the performance of a specific market index (top 100 crypto assets), providing a diversified, low-cost investment option. Here are the highlights:
+Following the structure and strategy of one of the world’s largest and most respected investment companies, the idea is to structure an index-based fund in DeFi designed to replicate the performance of a specific market index (top 100 crypto assets), providing a diversified, low-cost investment option. Here are the highlights:
 
 1. **Diversification** - By investing in an index fund, you are effectively investing in a broad range of companies, spreading your risk across multiple sectors and industries;
 
-2. **Low Costs** - The main focus is to benefit investors providing low expense ratios, resulting in more of your funds staying invested and result in potential grow over time;
+2. **Low Costs** - The main focus is to benefit investors by providing low expense ratios, resulting in more of your funds staying invested and in potential growth over time;
 
 3. **Long-Term Performance** -  Performance Explanation: Historically, index funds have consistently delivered solid returns over the long term, outperforming many actively managed funds;
 
@@ -43,9 +43,9 @@ Following the structure and strategy of one of the world’s largest and most re
 
 5. **Passive Management** - The fund is passively managed, meaning it does not require active trading or stock picking, reducing costs and minimizing the risk of underperformance;
 
-6. **Transparency and Trust** - The blockchain technology ensures transparency and trust, allowing investors to verify the fund’s holdings, performance, and fees at any time.
+6. **Transparency and Trust** - Blockchain technology ensures transparency and trust, allowing investors to verify the fund’s holdings, performance, and fees at any time.
 
-As an example, we consider investing in top 100 crypto assets with equal weight, and the fund will be rebalanced every quarter to maintain the target allocation. The fund will be managed by a professional fund manager who will oversee the fund’s operations, rebalancing, and performance tracking.
+For example, we consider investing in the top 100 crypto assets with equal weight, and the fund will be rebalanced every quarter to maintain the target allocation. The fund will be managed by a professional fund manager who will oversee the fund’s operations, rebalancing, and performance tracking.
 
 This is the [dataset](./data/crypto_top100_20240720.csv) that was extracted from [CoinGecko](https://www.coingecko.com/) and [CoinMarketCap](https://coinmarketcap.com/):
 

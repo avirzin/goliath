@@ -1,4 +1,4 @@
-<img src="./images/goliath_logo.png" alt="Goliath logo" width="52"/><img src="./images/alchemy_white_background.png" alt="Alchemy University logo" height="52"/>
+<img src="./images/goliath_logo.png" alt="Goliath logo" width="52"/> <img src="./images/alchemy_white_background.png" alt="Alchemy University logo" height="52"/>
 
 
 # Goliath

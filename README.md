@@ -45,9 +45,9 @@ Following the structure and strategy of one of the world’s largest and most re
 
 6. **Transparency and Trust** - The blockchain technology ensures transparency and trust, allowing investors to verify the fund’s holdings, performance, and fees at any time.
 
-As an example, we consider investing in top 100 crypto assets with equal weight, and the fund will be rebalanced every quarter to maintain the target allocation. The fund will be managed by a professional fund manager who will oversee the fund’s operations, rebalancing, and performance tracking.
+As an example, we consider investing in top 99 crypto assets with equal weight, and the fund will be rebalanced every quarter to maintain the target allocation. The fund will be managed by a professional fund manager who will oversee the fund’s operations, rebalancing, and performance tracking.
 
-This is the [dataset](./data/crypto_top100_20240720.csv) that was extracted from [CoinGecko](https://www.coingecko.com/) and [CoinMarketCap](https://coinmarketcap.com/):
+This is the [dataset](./data/crypto_top99_20240720.csv) that was extracted from [CoinGecko](https://www.coingecko.com/) and [CoinMarketCap](https://coinmarketcap.com/):
 
 |Symbol|Name|Volume($)|Market Cap|Market Cap Rank|7D Change(%)|24H Change(%)|
 |---|---|---|---|---|---|---|
@@ -59,9 +59,9 @@ This is the [dataset](./data/crypto_top100_20240720.csv) that was extracted from
 |neo|NEO|21686471|829930552|100|15.5835334306|2.7088383571  |
 |xtz|Tezos|33404385|793273762|101|2.4239090784|-2.2068254177|
 
+The performance of the portfolio indexed to the top 99 crypto assets is shown in the chart below:
 
-
-[TODO: Insert chart here]
+![Portfolio performance](./images/portfolio.png "Portfolio Performance Over the Last 12 Months")
 
 
 ### Architecture
@@ -108,4 +108,4 @@ The general flow of the solution is as follows:
 ## References
 
 - [BALCHUNAS, Eric. The Bogle Effect: How John Bogle and Vanguard Turned Wall Street Inside Out and Saved Investors Trillions](https://www.amazon.com/Bogle-Effect-Vanguard-Investors-Trillions/dp/1637740719). Matt Holt (April, 202) ;
-- [OpenBB Terminal tools](https://openbb.co/) were used to research and analyze the top 100 crypto assets;
+- [OpenBB Terminal tools](https://openbb.co/) were used to research and analyze the top 99 crypto assets;
